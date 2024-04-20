@@ -10,7 +10,7 @@ def convert():
 
 
 # window
-window = tk.Tk()
+window = ttk.Window(themename='darkly')
 window.title('Converter')
 window.geometry('400x150')
 
